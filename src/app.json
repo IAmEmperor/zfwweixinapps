@@ -1,0 +1,28 @@
+{
+  "pages": [{
+      "path": "pages/index",
+      "config": {
+        "navigationBarTitleText": "wlyxbz",
+        "usingComponents": {
+          "van-button": "/vant-weapp/dist/button/index",
+          "van-tag": "/vant-weapp/dist/tag/index"
+        }
+      }
+    },
+    {
+      "path": "packageA/logs",
+      "subPackage": true
+    },
+    {
+      "path": "packageB/logs",
+      "subPackage": true
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {}
+}
